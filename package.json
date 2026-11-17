@@ -1,0 +1,15 @@
+{
+  "name": "void-core-discord-shop",
+  "version": "1.0.0",
+  "description": "VOID CORE Discord software shop bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  }
+}
